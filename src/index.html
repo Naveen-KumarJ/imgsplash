@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body class="p-5">
+    <div class="container mx-auto flex flex-col p-10 bg-slate-100 rounded-2xl">
+        <div class="flex flex-col items-start gap-2 md:flex-row md:items-end justify-between">
+            <div>
+                <h2 class="text-3xl font-bold">Imgsplash</h2>
+                <p>The internet’s source for visuals.</p>
+                <p>Powered by creators everywhere.</p>
+            </div>
+            <div>
+                <p class="text-xs flex items-center">Supported by <span class="text-sm font-semibold flex items-center text-red-500"><i class='bx bx-candles'></i> Maverickk</span></p>
+            </div>
+        </div>
+        <div class="w-full xl:w-1/2 mt-10 mx-auto relative">
+            <input id="search-input" type="text" placeholder="Search Photos and illustrations" class="bg-gray-200  w-full pl-11 pr-20 md:pr-25 py-2 rounded-md text-sm focus:outline-offset-2 focus:outline-slate-500">
+            <i class='bx bx-search absolute text-xl top-2.5 left-0 pl-4 text-gray-600'></i>
+            <button class="bg-red-500 absolute right-0  rounded-r-md px-2 md:px-10 py-1 h-full text-white font-semibold cursor-pointer" id="search-btn">Search</button>
+        </div>
+    </div>
+    <section id="images-section" class="container mx-auto p-3 lg:p-10 mt-15 bg-gray-100 rounded-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- <div class="aspect-square p-2 relative">
+            <div class="w-full h-full">
+                <img src="./assets/pic.jpg" alt="" class="object-contain w-full h-full">
+                <button class="bg-transparent backdrop-blur-2xl absolute right-0 left-0 bottom-2  rounded-md px-6 py-1 text-black font-semibold cursor-pointer">Download</button>
+            </div>
+        </div>
+        <div class="aspect-square p-2 relative">
+            <div class="w-full h-full">
+                <img src="./assets/pic.jpg" alt="" class="object-contain w-full h-full">
+                <button class="bg-transparent backdrop-blur-2xl absolute right-0 left-0 bottom-2  rounded-md px-6 py-1 text-black font-semibold cursor-pointer">Download</button>
+            </div>
+        </div>
+        <div class="aspect-square p-2 relative">
+            <div class="w-full h-full">
+                <img src="./assets/pic.jpg" alt="" class="object-contain w-full h-full">
+                <button class="bg-transparent backdrop-blur-2xl absolute right-0 left-0 bottom-2  rounded-md px-6 py-1 text-black font-semibold cursor-pointer">Download</button>
+            </div>
+        </div>
+        <div class="aspect-square p-2 relative">
+            <div class="w-full h-full">
+                <img src="./assets/pic.jpg" alt="" class="object-contain w-full h-full">
+                <button class="bg-transparent backdrop-blur-2xl absolute right-0 left-0 bottom-2  rounded-md px-6 py-1 text-black font-semibold cursor-pointer">Download</button>
+            </div>
+        </div>
+        <div class="aspect-square p-2 relative">
+            <div class="w-full h-full">
+                <img src="./assets/pic.jpg" alt="" class="object-contain w-full h-full">
+                <button class="bg-transparent backdrop-blur-2xl absolute right-0 left-0 bottom-2  rounded-md px-6 py-1 text-black font-semibold cursor-pointer">Download</button>
+            </div>
+        </div>
+        <div class="aspect-square p-2 relative">
+            <div class="w-full h-full">
+                <img src="./assets/pic2.jpg" alt="" class="object-contain w-full h-full">
+                <button class="bg-transparent backdrop-blur-2xl absolute right-0 left-0 bottom-2  rounded-md px-6 py-1 text-black font-semibold cursor-pointer">Download</button>
+            </div>
+        </div>
+        <div class="aspect-square p-2 relative">
+            <div class="w-full h-full">
+                <img src="./assets/pic.jpg" alt="" class="object-contain w-full h-full">
+                <button class="bg-transparent backdrop-blur-2xl absolute right-0 left-0 bottom-2  rounded-md px-6 py-1 text-black font-semibold cursor-pointer">Download</button>
+            </div>
+        </div>
+        <div class="aspect-square p-2 relative">
+            <div class="w-full h-full">
+                <img src="./assets/pic2.jpg" alt="" class="object-contain w-full h-full">
+                <button class="bg-transparent backdrop-blur-2xl absolute right-0 left-0 bottom-2  rounded-md px-6 py-1 text-black font-semibold cursor-pointer">Download</button>
+            </div>
+        </div>
+        <div class="aspect-square p-2 relative">
+            <div class="w-full h-full">
+                <img src="./assets/pic.jpg" alt="" class="object-contain w-full h-full">
+                <button class="bg-transparent backdrop-blur-2xl absolute right-0 left-0 bottom-2  rounded-md px-6 py-1 text-black font-semibold cursor-pointer">Download</button>
+            </div>
+        </div>
+        -->
+    </section>
+    <div class="container mx-auto mt-10 col-span-full flex justify-center">
+        <button id="show-more-btn" class="px-4 py-1 bg-slate-800 text-white font-bold cursor-pointer rounded-md mx-auto hidden">Show More</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
